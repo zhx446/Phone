@@ -1,0 +1,610 @@
+/************************ 公共样式 start ************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: MicrosoftYaHei;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/************************ 公共样式 end ************************/
+
+
+/************************ header start ************************/
+
+
+/************ 导航栏 start ************/
+
+.header-nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fefcfb;
+}
+
+.header-nav-mid {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.logo {
+    float: left;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 100%;
+    width: 39px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 14px;
+}
+
+.nav-title {
+    width: 109px;
+    height: 28px;
+    font-family: MicrosoftYaHei;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #3e3f3f;
+    float: left;
+}
+
+.nav-ul {
+    float: right;
+}
+
+.nav-ul-item {
+    float: left;
+    width: 36px;
+    height: 17px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #1c1c1c;
+    margin-left: 36px;
+}
+
+.active {
+    color: #f81f2e;
+}
+
+.btn-shopp {
+    width: 134px;
+    height: 40px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    letter-spacing: 0px;
+    color: #fefefe;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 29px;
+}
+
+.nav-li-hr {
+    background-color: #f81f2e;
+    width: 36px;
+    height: 3px;
+    float: left;
+    margin-top: -29px;
+    margin-left: 0px;
+}
+
+
+/************ 导航栏 end ************/
+
+
+/************************ header end ************************/
+
+
+/************************ section start ************************/
+
+
+/************ banner start ************/
+
+.banner {
+    background: url(../images/bg-screen-1.png) no-repeat;
+    width: 100%;
+    height: 660px;
+}
+
+.banner-title-red {
+    width: 670px;
+    height: 58px;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #b71b26;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+.banner-title-black {
+    color: #3e3f3f;
+}
+
+.banner-phone {
+    position: relative;
+    background: url(../images/banner-1-phone.png) no-repeat;
+    background-size: 100%;
+    width: 740px;
+    height: 164px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+
+.banner-phone-shadow {
+    background: url(../images/screen-1-shadow.png) no-repeat;
+    background-size: 100%;
+    width: 808px;
+    height: 262px;
+    margin: 0 auto;
+    margin-top: -119px;
+}
+
+.banner-content {
+    width: 1200px;
+    height: 660px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-left-btn {
+    width: 80px;
+    height: 80px;
+    background-color: #dfdcdc;
+    border-radius: 80px;
+    position: absolute;
+    top: 50%;
+}
+
+.left-btn-arrows {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: 33%;
+    right: 5px;
+}
+
+.left-btn-arrows-top {
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+    transform: rotate(-35deg);
+}
+
+.left-btn-arrows-bottom {
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+    transform: rotate(35deg);
+    margin-top: 16px;
+}
+
+.banner-right-btn {
+    width: 80px;
+    height: 80px;
+    background-color: #dfdcdc;
+    border-radius: 80px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.right-btn-arrows {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: 33%;
+    left: 5px;
+}
+
+.right-btn-arrows-top {
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+    transform: rotate(35deg);
+}
+
+.right-btn-arrows-bottom {
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+    transform: rotate(-35deg);
+    margin-top: 16px;
+}
+
+
+/************ banner end ************/
+
+
+/************ 第一节 优美的设计 start ************/
+
+.beautiful-design-bg {
+    background-color: #FAFAFA;
+}
+
+.beautiful-design {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.beautiful-title {
+    width: 550px;
+    height: 49px;
+    font-family: MicrosoftYaHei;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #3e3f3f;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+.beautiful-describe {
+    width: 600px;
+    height: 50px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #b1aeae;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    line-height: 30px;
+}
+
+.beautiful-phone {
+    background: url(../images/screen-2-phone.png) no-repeat;
+    background-size: 100%;
+    background-position: 0px 75px;
+    width: 1005px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.hd-photography {
+    background: url(../images/icon-point-right.png) no-repeat;
+    width: 154px;
+    height: 29px;
+    margin-left: -34px;
+    position: relative;
+    top: 240px;
+    font-family: MicrosoftYaHei;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #454545;
+}
+
+.hd-photography text {
+    position: relative;
+    bottom: 10px;
+    right: 110px;
+}
+
+.thin {
+    background: url(../images/icon-point-left.png) no-repeat;
+    width: 154px;
+    height: 29px;
+    float: right;
+    position: relative;
+    top: 75px;
+    right: 230px;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #454545;
+}
+
+.thin text {
+    position: relative;
+    bottom: 10px;
+    left: 90px;
+}
+
+.big-screen {
+    background: url(../images/icon-point-left.png) no-repeat;
+    width: 154px;
+    height: 29px;
+    float: right;
+    position: relative;
+    top: 360px;
+    right: -25px;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #454545;
+}
+
+.big-screen text {
+    position: relative;
+    bottom: 10px;
+    left: 90px;
+}
+
+
+/************ 第一节 优美的设计 end ************/
+
+
+/************ 第二节 外观 start ************/
+
+.facade {
+    width: 100%;
+    background-color: #141414;
+    float: left;
+}
+
+.facade-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.facade-left {
+    width: 50%;
+    float: left;
+}
+
+.facade-title {
+    width: 600px;
+    height: 49px;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-top: 63px;
+}
+
+.facade-describe {
+    width: 600px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #b1aeae;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 12px;
+    line-height: 30px;
+}
+
+.feature {
+    margin-left: 60px;
+}
+
+.feature-mian {
+    width: 150px;
+    height: 150px;
+    border: solid 1px #ffffff;
+    float: left;
+    margin-left: 31px;
+    margin-top: 31px;
+}
+
+.feature-size {
+    width: 82px;
+    height: 52px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.feature-size p {
+    font-size: 24px;
+}
+
+.feature-size p:last-child {
+    font-size: 14px;
+}
+
+.facade-right {
+    background: url(../images/screen-3-phone.png) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 602px;
+    float: left;
+}
+
+
+/************ 第二节 外观 end ************/
+
+
+/************ 第三节 更多选择 start ************/
+
+.chioce {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 39px;
+}
+
+.chioce-title {
+    width: 450px;
+    height: 49px;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #3e3f3f;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.chioce-describe {
+    width: 200px;
+    height: 19px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #b1aeae;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.chioce-ul {
+    margin-top: 64px;
+}
+
+.chioce-item {
+    float: left;
+    margin-left: 48px;
+}
+
+.chioce-color {
+    width: 60px;
+    height: 19px;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #3e3f3f;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.chioce-memory {
+    width: 110px;
+    height: 16px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #b1aeae;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
+
+/************ 第三节 更多选择 end ************/
+
+
+/************ 第四节 last-game start ************/
+
+.last-game {
+    width: 100%;
+    background-color: #141414;
+    overflow: hidden;
+}
+
+.last-game-title {
+    width: 800px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.last-game-describe {
+    width: 355px;
+    height: 49px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #b1aeae;
+    margin: 0 auto;
+    margin-top: 36px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.last-game-pic img {
+    width: 100%;
+    margin-top: 55px;
+}
+
+
+/************ 第四节 last-game end ************/
+
+
+/************************ section end ************************/
+
+
+/************************ 立即购买 start ************************/
+
+.buy-now {
+    position: relative;
+}
+
+.buy-now-pic {
+    background: url(../images/bg-screen-buy.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 190px;
+    opacity: 0.7;
+}
+
+.buy-now input {
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    background-color: #FF0000;
+    border: 0;
+    font-size: 22px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -30px;
+}
+
+
+/************************ 立即购买 end ************************/
+
+
+/************************ footer start ************************/
+
+.footer-z {
+    width: 100%;
+    height: 60px;
+    background-color: #FAFAFA;
+    margin-top: -1px;
+    line-height: 55px;
+}
+
+.footer-txt {
+    width: 310px;
+    height: 17px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+
+/************************ footer end ************************/
