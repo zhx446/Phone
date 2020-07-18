@@ -11,21 +11,23 @@
 <body>
     <header>
         <!-- 导航栏 -->
-        <nav class="header-nav">
+        <nav class="header-nav nav-bg">
             <div class="header-nav-mid">
-                <div class="nav-logo-title">
-                    <div class="logo"></div>
-                    <text class="nav-title">小Z手机</text>
+                <div class="bottom-nav">
+                    <div class="nav-logo-title">
+                        <div class="logo"></div>
+                        <text class="nav-title">小Z手机</text>
+                    </div>
+                    <ul class="nav-ul">
+                        <li class="nav-ul-item active">首页</li>
+                        <li class="nav-ul-item">外观</li>
+                        <li class="nav-ul-item">配置</li>
+                        <li class="nav-ul-item">型号</li>
+                        <li class="nav-ul-item">说明</li>
+                        <span class="btn-shopp">立即购买</span>
+                        <span class="nav-li-hr"></span>
+                    </ul>
                 </div>
-                <ul class="nav-ul">
-                    <li class="nav-ul-item active">首页</li>
-                    <li class="nav-ul-item">外观</li>
-                    <li class="nav-ul-item">配置</li>
-                    <li class="nav-ul-item">型号</li>
-                    <li class="nav-ul-item">说明</li>
-                    <span class="btn-shopp">立即购买</span>
-                    <span class="nav-li-hr"></span>
-                </ul>
             </div>
         </nav>
     </header>
@@ -33,17 +35,27 @@
         <!-- 固定导航栏 -->
         <div class="right-nav">
             <ul class="right-nav-ul">
-                <li class="right-nav-item">首页</li>
-                <li class="right-nav-item">外观</li>
-                <li class="right-nav-item">配置</li>
-                <li class="right-nav-item">型号</li>
-                <li class="no-bottom">说明</li>
+                <li class="right-nav-item">
+                    <a href="#home">首页</a>
+                </li>
+                <li class="right-nav-item">
+                    <a href="#beautiful">外观</a>
+                </li>
+                <li class="right-nav-item">
+                    <a href="#configuration">配置</a>
+                </li>
+                <li class="right-nav-item">
+                    <a href="#type">型号</a>
+                </li>
+                <li class="no-bottom">
+                    <a href="#explain">说明</a>
+                </li>
             </ul>
         </div>
     </section>
     <section>
-        <!-- banner -->
-        <div class="banner">
+        <!-- banner 首页 -->
+        <div class="banner" id="home">
             <div class="banner-content">
                 <div class="banner-title-red">小Z手机7 Pro <text class="banner-title-black">如约而至</text></div>
                 <div class="banner-phone"></div>
@@ -63,8 +75,8 @@
             </div>
         </div>
     </section>
-    <section class="beautiful-design-bg">
-        <!--第一节 优美的设计 -->
+    <section class="beautiful-design-bg" id="beautiful">
+        <!--第一节 外观 -->
         <div class="beautiful-design">
             <div class="beautiful-title">优美的设计，更令人着迷</div>
             <p class="beautiful-describe">
@@ -84,8 +96,8 @@
         </div>
     </section>
     <section>
-        <!-- 外观 -->
-        <div class="facade">
+        <!-- 配置 -->
+        <div class="facade" id="configuration">
             <div class="facade-content">
                 <div class="facade-left">
                     <div class="facade-title">外观小巧，功能强大的手机</div>
@@ -125,8 +137,8 @@
         </div>
     </section>
     <section>
-        <!-- 更多选择 -->
-        <div class="chioce">
+        <!-- 型号 -->
+        <div class="chioce" id="type">
             <div class="chioce-title">现在，您有更多选择</div>
             <div class="chioce-describe">多种配色，不一样的心情</div>
             <ul class="chioce-ul">
@@ -154,8 +166,8 @@
         </div>
     </section>
     <section>
-        <!-- last -->
-        <div class="last-game">
+        <!-- 说明 -->
+        <div class="last-game" id="explain">
             <div class="last-game-title">游戏、学习、拍照、有这一部就够了</div>
             <div class="last-game-describe">看视频、拍摄高清视频与照片、视频聊天、一机多功能，让您生活更丰富精彩。</div>
             <div class="last-game-pic">

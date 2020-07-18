@@ -11,6 +11,10 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /************************ 公共样式 end ************************/
 
@@ -24,6 +28,16 @@ li {
     width: 100%;
     height: 100px;
     background-color: #fefcfb;
+}
+
+.nav-bg {
+    width: 100%;
+    height: 100px;
+    background: #000;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .header-nav-mid {
@@ -145,6 +159,14 @@ li {
     margin: 0 auto;
 }
 
+.right-nav-item a {
+    color: #757575;
+}
+
+.no-bottom a {
+    color: #757575;
+}
+
 .no-bottom {
     margin-top: 40px;
     text-align: center;
@@ -158,7 +180,7 @@ li {
 /************ 固定导航栏 end ************/
 
 
-/************ banner start ************/
+/************ banner 首页 start ************/
 
 .banner {
     background: url(../images/bg-screen-1.png) no-repeat;
@@ -278,10 +300,10 @@ li {
 }
 
 
-/************ banner end ************/
+/************ banner 首页 end ************/
 
 
-/************ 第一节 优美的设计 start ************/
+/************ 第一节 外观 start ************/
 
 .beautiful-design-bg {
     background-color: #FAFAFA;
@@ -394,10 +416,10 @@ li {
 }
 
 
-/************ 第一节 优美的设计 end ************/
+/************ 第一节 外观 end ************/
 
 
-/************ 第二节 外观 start ************/
+/************ 第二节 配置 start ************/
 
 .facade {
     width: 100%;
@@ -483,10 +505,10 @@ li {
 }
 
 
-/************ 第二节 外观 end ************/
+/************ 第二节 配置 end ************/
 
 
-/************ 第三节 更多选择 start ************/
+/************ 第三节 型号 start ************/
 
 .chioce {
     width: 1200px;
@@ -554,10 +576,10 @@ li {
 }
 
 
-/************ 第三节 更多选择 end ************/
+/************ 第三节 型号 end ************/
 
 
-/************ 第四节 last-game start ************/
+/************ 第四节 说明 start ************/
 
 .last-game {
     width: 100%;
@@ -597,7 +619,7 @@ li {
 }
 
 
-/************ 第四节 last-game end ************/
+/************ 第四节 说明 end ************/
 
 
 /************************ section end ************************/
