@@ -57,13 +57,13 @@ li {
 
 .nav-ul {
     float: right;
+    position: relative;
 }
 
 .nav-ul-item {
     float: left;
     width: 36px;
-    height: 17px;
-    font-family: MicrosoftYaHei;
+    height: 72px;
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
@@ -77,6 +77,13 @@ li {
 }
 
 .btn-shopp {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #1c1c1c;
+    margin-left: 36px;
     width: 134px;
     height: 40px;
     background-color: #ff0000;
@@ -93,8 +100,15 @@ li {
     width: 36px;
     height: 3px;
     float: left;
-    margin-top: -29px;
-    margin-left: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 37px;
+    display: none;
+    overflow: hidden;
+}
+
+.nav-ul-item:hover {
+    color: #f81f2e;
 }
 
 
@@ -105,6 +119,43 @@ li {
 
 
 /************************ section start ************************/
+
+
+/************ 固定导航栏 start ************/
+
+.right-nav {
+    position: fixed;
+    right: 0;
+    width: 88px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(7, 17, 27, 0.1);
+    z-index: 3;
+    padding: 5px 10px;
+    bottom: 120px;
+}
+
+.right-nav-item {
+    margin-top: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 32px;
+    padding-top: 28px;
+    width: 70px;
+    margin: 0 auto;
+}
+
+.no-bottom {
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 32px;
+    padding-top: 28px;
+    width: 70px;
+    margin: 0 auto;
+}
+
+
+/************ 固定导航栏 end ************/
 
 
 /************ banner start ************/
