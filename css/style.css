@@ -34,7 +34,8 @@ a {
     width: 100%;
     height: 100px;
     background: #000;
-    display: none;
+    color: #fff;
+    display: block;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -86,9 +87,10 @@ a {
     margin-left: 36px;
 }
 
-.active {
+
+/* .active {
     color: #f81f2e;
-}
+} */
 
 .btn-shopp {
     float: left;
